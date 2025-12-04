@@ -269,7 +269,6 @@ function App() {
               <WeatherHighlights current={weatherData.current} units={weatherData.units} />
               <DailyForecast
                 days={weatherData.daily}
-                units={weatherData.units}
                 selectedDay={selectedDay}
                 onSelectDay={setSelectedDay}
               />

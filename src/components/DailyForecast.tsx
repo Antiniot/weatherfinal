@@ -2,12 +2,11 @@ import type { DailyForecastDay, WeatherData } from '../types/weather'
 
 interface DailyForecastProps {
   days: DailyForecastDay[]
-  units: WeatherData['units']
   selectedDay: string | null
   onSelectDay: (day: string) => void
 }
 
-export function DailyForecast({ days, units, selectedDay, onSelectDay }: DailyForecastProps) {
+export function DailyForecast({ days, selectedDay, onSelectDay }: DailyForecastProps) {
   return (
     <section className="space-y-4">
       <div className="flex items-center justify-between">

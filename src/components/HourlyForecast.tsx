@@ -14,7 +14,6 @@ export function HourlyForecast({
   selectedDay,
   onSelectDay,
   hourlyByDay,
-  units,
 }: HourlyForecastProps) {
   const hours = selectedDay ? hourlyByDay[selectedDay] ?? [] : []
   const [open, setOpen] = useState(false)
