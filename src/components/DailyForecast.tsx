@@ -1,4 +1,4 @@
-import type { DailyForecastDay, WeatherData } from '../types/weather'
+import type { DailyForecastDay } from '../types/weather'
 
 interface DailyForecastProps {
   days: DailyForecastDay[]
